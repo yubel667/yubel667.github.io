@@ -79,4 +79,4 @@ Ver 1.1 change log
 
 不远处，一位路过的老教授，发出了严厉的制止声。
 
-![]({{site.url}}/images/reflection-cg/1.png)
+![](/images/reflection-cg/1.PNG)
