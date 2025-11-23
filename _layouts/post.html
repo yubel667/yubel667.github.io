@@ -20,6 +20,13 @@ layout: default
     {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
   {% endif %}
   </span>
+
+  <br><span class="post-meta">
+      <button onclick="window.print()" style="cursor:pointer; background:none; border:1px solid #ccc; padding:5px 10px; border-radius:4px;">🖨️ Save as PDF</button>
+  </span>
+  <button href="https://translate.google.com/translate?sl=auto&tl=en&u={{ site.url }}{{ page.url }}" target="_blank" style="cursor:pointer; background:none; border:1px solid #ccc; padding:5px 10px; border-radius:4px;">
+    🌍 Translate to English
+  </a>
 </div>
 
 <article class="post-content">

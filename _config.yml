@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Yiwei's Blogs
+email:       for.yiwei@gmail.com
+author:      Yiwei Zhang
+description: "A Collection of yiwei's personal blogs."
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         "https://https://yubel667.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -14,7 +14,7 @@ header_pages:
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: G-ED9JY4CNCE
 google_tag_manager:
 # Bing services
 bing_verification:
