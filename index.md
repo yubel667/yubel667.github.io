@@ -1,8 +1,14 @@
-# Welcome to my GitHub Pages Site!
+---
+layout: default
+title: 首页
+---
 
-This is the content of my `index.md` file.
+## 文章列表
 
--   Item 1
--   Item 2
-
-You can add more text, images, and links here.
+{% for post in site.posts %}
+  ### [{{ post.title }}]({{ post.url }})
+  
+  **BY {{ post.categories | join: ", " }}**
+  
+  ---
+{% endfor %}
