@@ -47,4 +47,3 @@ minutes: 10
 
 ## 第四幕
 ![](/images/reflection-cg/22.webp)
-![](/images/reflection-cg/23.webp)
