@@ -4,23 +4,23 @@ title: 《我们的爱情，是彼此的倒影 V1.1》
 date: 2025-11-23
 summary: ""
 categories: romance
+minutes: 120
 ---
 
-张逸玮
+作者：张逸玮
 {: .center}
 
-CG：Nano Banana Pro
+插图：Nano Banana Pro
 {: .center}
 
 2025.11 Ver 1.1
 {: .center}
 
 Ver 1.1 更新
-- 为每一节增加CG
+- 为每一节增加插图 ([插图集]({% post_url 2025-11-23-reflection-v1.1-gallary %}))
 - 更多细节描写，增加 2.5 万字，总计至10万字
 - 增加后记
 
-[图集]({% post_url 2025-11-23-reflection-v1.1-gallary %})
 
 目录：
 
