@@ -20,6 +20,8 @@ Ver 1.1 更新
 - 更多细节描写，增加 2.5 万字，总计至10万字
 - 增加后记
 
+[图集]({% post_url 2025-11-23-reflection-v1.1-gallary %})
+
 目录：
 
 * Any text here
@@ -2023,6 +2025,8 @@ Ver 1.1 更新
 锁，开了。
 
 ![](/images/reflection-cg/13.webp)
+
+**14**
 
 “咔哒。”
 
