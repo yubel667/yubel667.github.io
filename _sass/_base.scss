@@ -34,3 +34,67 @@ body {
 }
 
 .center { text-align: center; }
+
+/* 当 body 拥有 hide-images 类时，隐藏文章内的所有图片 */
+.img-uri-placeholder {
+    display: none;
+}
+
+/* 激活隐藏模式时 */
+body.hide-images {
+    /* 1. 隐藏真正的图片 */
+    .post img {
+        display: none !important;
+    }
+
+    /* 2. 显示 URI 占位符 */
+    .img-uri-placeholder {
+        display: block; /* 或者 inline-block */
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #f8f8f8;
+        border: 1px dashed #ccc;
+        border-radius: 4px;
+        color: #555;
+        text-decoration: none;
+        font-family: monospace; /* 用等宽字体显示 URL 更像代码 */
+        font-size: 0.85em;
+        word-break: break-all; /* 防止超长 URL 撑破手机屏幕 */
+        
+        &:hover {
+            background-color: #eef;
+            color: #000;
+            border-color: #99d;
+        }
+    }
+}
+.post-tools-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* 按钮和翻译框的间距 */
+    margin: 20px 0; /* 上下边距 */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0; /* 加一条淡淡的分割线 */
+}
+
+.tool-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* 鼠标悬停效果 */
+.tool-btn:hover {
+    border-color: #333;
+    color: #333;
+    background-color: #fafafa;
+}

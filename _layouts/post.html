@@ -22,14 +22,34 @@ layout: default
   </span>
 
   <div class="post-tools-container">
-      
       <button class="tool-btn" onclick="window.print()" title="Save as PDF">
           <span class="icon">🖨️</span> 
           <span class="text">另存为 PDF</span>
       </button>
+      <button class="tool-btn" id="toggle-image-btn" onclick="toggleImages()" title="Text Only Mode">
+        <span class="icon">🖼️</span> 
+        <span class="text">隐藏图片</span>
+      </button>
       <div id="google_translate_element" class="tool-translate"></div>
   </div>
   <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+          // 找到正文内所有的图片
+          var images = document.querySelectorAll('.post img');
+          images.forEach(function(img) {
+              // 创建一个 a 标签
+              var placeholder = document.createElement('a');
+              placeholder.href = img.src;     // 链接指向原图
+              placeholder.target = '_blank';  // 新窗口打开
+              placeholder.className = 'img-uri-placeholder'; // 赋予样式类
+              
+              // 设置显示的文字：可以是简单的图标，也可以是完整的 src
+              placeholder.innerHTML = '🔗' + img.src; 
+              
+              // 将这个占位符插入到图片后面
+              img.parentNode.insertBefore(placeholder, img.nextSibling);
+          });
+      });
       function googleTranslateElementInit() {
           new google.translate.TranslateElement(
               {
@@ -39,6 +59,20 @@ layout: default
               }, 
               'google_translate_element'
           );
+      }
+      function toggleImages() {
+          var body = document.body;
+          var btnText = document.querySelector('#toggle-image-btn .text');
+          
+          // 切换 body 的类
+          body.classList.toggle('hide-images');
+
+          // 根据状态修改按钮文字
+          if (body.classList.contains('hide-images')) {
+              btnText.textContent = "显示图片";
+          } else {
+              btnText.textContent = "隐藏图片";
+          }
       }
   </script>
   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
