@@ -17,7 +17,7 @@ minutes: 120
 {: .center}
 
 Ver 1.1 更新
-- 为每一节增加插图 ([插图集]({% post_url 2025-11-23-reflection-v1.1-gallary %}))
+- 为每一节增加插图，总计34张 ([插图集]({% post_url 2025-11-23-reflection-v1.1-gallary %}))
 - 更多细节描写，增加 2.5 万字，总计至10万字
 - 增加后记
 
