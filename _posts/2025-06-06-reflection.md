@@ -6,6 +6,9 @@ summary: ""
 categories: romance
 ---
 
+[更新至1.1版，点此跳转]({% post_url 2025-11-23-reflection-v1.1 %})
+{: .center}
+
 剧本， 润色，校对：张逸玮
 {: .center}
 
