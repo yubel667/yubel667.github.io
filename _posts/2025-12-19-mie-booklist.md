@@ -7,69 +7,96 @@ categories: philosophy
 minutes: 15
 ---
 
+目录：
+<!-- no toc -->
+- [选择图书](#如何选择图书)
+- [获取图书](#获取图书)
+- [主书单](#主书单世界的极简主义模型)
+- [补充书单](#补充书单)
+- [总结](#总结)
+- [附录](#附录)
+
 我们所处的时代常常面临一种认知的割裂：物理学描述了一个冷酷、决定论的粒子世界，而我们的日常经验却充满了意义、自由意志和伦理价值。大多数人在这两种图景之间不断切换，却很少尝试将它们真正统一。
 
-这份书单不是随意的阅读合集，而是一次系统性的世界观重构尝试。它设计了一条从第一层到第七层的进阶路径，旨在回答一个核心问题：如何在一个纯粹物理的宇宙中，推导出演化、生命、智能乃至意义？希望这份书单能为你提供一套编译自我认知的底层代码，让你在理解世界时，不再需要借助任何超自然的假设。[《作为表征与创生的世界》]({% post_url 2025-06-10-mie %}) 正是对这种思想的综合。
+这份书单设计了一条从第一层到第七层的进阶路径，旨在回答一个核心问题：如何在一个纯粹物理的宇宙中，推导出演化、生命、智能乃至意义？希望这份书单能为你提供一个坚实的理论基础，让你在理解世界时，不再需要借助任何超自然的假设。[《作为表征与创生的世界》]({% post_url 2025-06-10-mie %}) 是对第三到第七层的一份综述。
 
-## 图书下载 & 链接
+## 选择图书
 
-pdf 压缩包下载链接：（施工中）
+可以先考虑阅读附录中的导读，然后挑选最感兴趣的书。*【重点】* 书籍是优先推荐的。
 
-密码：YuBeL667
+直接从第一层本体论读起来是最理想但非常困难的。如果没有特别感兴趣的书，一个推荐的从简单到困难的阅读顺序如下：
 
-## 如何阅读
+1. **建立全景（基础）:** 《宇宙》《人类简史》《万物简史》
+2. **生物与博弈论 （第五、六层）：**《自私的基因》《合作的进化》
+3. **物质与信息（第三、四层）：**《复杂》《生命是什么》(Addy Pross版)
+4. **核心重构（第一、二、七层）：** 《我是个怪圈》《Every Thing Must Go》(最困难的书)《The End of Time》
+5. **批判与反思（补充书单，按需）**《时间重生》《有意识的心灵》
 
-可以先考虑阅读导读，然后挑选最感兴趣的书。*【重点】* 书籍应当优先阅读，其余为补充。有些书比别的书更难懂，文中用10分制标注了难度。
+## 获取图书
+
+**单独下载**
+
+在 [annas-archive.org](https://annas-archive.org/) 根据书名和作者可以搜到大部分书。部分书籍没有中文版翻译，可以看英文版或使用LLM。
+
+**合集下载链接（github）**
+- English Version (pdf, 26本，200 MB)
+  - [github link (7z)](https://github.com/yubel667/static-files/releases/download/mie-booklist/English.7z)
+  - [ghproxy link (7z)](https://ghfast.top/https://github.com/yubel667/static-files/releases/download/mie-booklist/English.7z)
+- 中文版 (pdf, 19本，400 MB)
+  - [github link (7z)](https://github.com/yubel667/static-files/releases/download/mie-booklist/Chinese.7z)
+  - [ghproxy link (7z)](https://ghfast.top/https://github.com/yubel667/static-files/releases/download/mie-booklist/Chinese.7z)
+- 密码：YuBeL667
+- 墙内可能需使用代理 [ghproxy.link](https://ghproxy.link) 提供的的前缀下载，例如 https://ghfast.top/https://github.com/... 本文提供了链接但是可能过期，此时需要手动修改为最新代理前缀。
 
 ## 主书单：世界的极简主义模型
 
-这份书单将世界观的重构过程划分为七个层级，每一层都是对上一层涌现结果的进一步解释，也是对下一层复杂性的物理奠基。
+这份书单将世界观的构建过程划分为七个层级，每一层都是对上一层涌现结果的进一步解释，也是对下一层复杂性的物理奠基。具有中文标题的书说明已有中文翻译。
 
 - **基础：科学图景**
   - 这里的书奠定了书单的科学图景，对于没有理科背景的读者推荐作为前置阅读。
-  - 《Cosmos》（Carl Sagan）
+  - 《宇宙》/《Cosmos》（1980，Carl Sagan）
     - 萨根用极其优美的语言，完成了从原子内部到星系边缘的扫描。
-  - 《A Short History of Nearly Everything》（Bill Bryson）
+  - 《万物简史》/《A Short History of Nearly Everything》（2003，Bill Bryson）
     - 布莱森以一个外行人的视角，采访了各领域的顶尖科学家，把地质学、化学、古生物学、粒子物理学的枯燥知识，变成了充满失败、巧合和天才洞见的精彩故事。
-  - 《Sapiens: A Brief History of Humankind》（Yuval Noah Harari）
+  - 《人类简史》/ 《Sapiens: A Brief History of Humankind》（2011，Yuval Noah Harari）
     - 这本书通过“认知革命”、“农业革命”和“科学革命”三部曲，解释了现代社会是如何运作的。
 
 - **第一层 本体论基础：实在的结构性**
-  - *【重点】*《Every Thing Must Go: Metaphysics Naturalized》 (James Ladyman & Don Ross)
+  - *【重点】*《Every Thing Must Go: Metaphysics Naturalized》 (2007，James Ladyman & Don Ross)
     - 一切始于对“存在”本身的质问。我们的直觉深受经典力学影响，倾向于认为世界是由一个个独立的“小球”（粒子/实体）组成的。但现代物理学挑战了这种微观粒子的独立实在性。在这一层，我们通过James Ladyman的视角引入“本体论结构实在论”（OSR）。我们必须接受一个反直觉的结论：并没有一个个离散的“东西”承载着属性，关系和结构本身才是最基础的实在。世界不是事物的集合，而是结构的集合。
-  - 《The Structure of the World: Metaphysics and Representation》 (Steven French)
+  - 《The Structure of the World: Metaphysics and Representation》 (2014，Steven French)
 
 - **第二层 时空机制：时间的终结**
-  - *【重点】*《The End of Time: The Next Revolution in Physics》 (Julian Barbour)
+  - *【重点】*《The End of Time: The Next Revolution in Physics》 (1999，Julian Barbour)
     - 如果基础实在是结构性的，那么时间在其中的位置是什么？这一层通过Julian Barbour和Carlo Rovelli的视角，挑战“时间流逝”的直觉。在量子引力和广义相对论的交叉点上，时间可能只是宏观统计层面的涌现，而非基础物理层面的变量。我们倾向于“块宇宙”模型——过去、现在和未来在时空结构中同等存在。这种视角的转换是理解物理决定论和消除“当下”特殊性的关键。
-  - 《Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime》 (Sean Carroll)
-  - 《The Order of Time》(Carlo Rovelli)
+  - 《Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime》 (2019，Sean Carroll)
+  - 《时间的秩序》/《The Order of Time》(2017，Carlo Rovelli)
 
 - **第三层 计算物理：比特万物**
-  - *【重点】*《Programming the Universe》 (Seth Lloyd)
+  - *【重点】*《编程宇宙》/《Programming the Universe》 (2006，Seth Lloyd)
     - 静态的宇宙结构如何表现出动态的演化？答案在于信息。这一层将物理学定律重新表述为信息的处理过程。Seth Lloyd认为宇宙本质上是一台巨大的量子计算机，物质是硬件，物理定律是软件。这里确立了“It from Bit”（万物源于比特）的观念，复杂性并非神秘的魔法，而是简单规则在巨大算力下迭代运算的必然结果。
-  - 《Complexity: A Guided Tour》 (Melanie Mitchell)
+  - 《复杂》/《Complexity: A Guided Tour》 (2009，Melanie Mitchell)
 
 - **第四层 生命起源：热力学的必然**
-  - *【重点】*《What is Life? How Chemistry Becomes Biology》 (Addy Pross)
+  - *【重点】*《What is Life? How Chemistry Becomes Biology》 (2012，Addy Pross)
     - 这是还原论最难跨越的鸿沟：死寂的物质如何变为活跃的生命？Addy Pross提供了解锁这一难题的钥匙——动态动力学稳定性（DKS）。生命不是奇迹，而是物质为了更高效地耗散能量而自组织形成的一种特殊耗散结构。在这一层，生物学被成功还原为化学，进而还原为热力学。生命的目的性（Teleology）在此获得了自然化的解释。
-  - 《What is Life?》 (Schrödinger)
+  - 《生命是什么》/《What is Life?》 (1944，Erwin Schrödinger)
 
 - **第五层 演化生物学：盲眼的钟表匠**
-  - *【重点】*《The Selfish Gene》 (Richard Dawkins)
+  - *【重点】*《自私的基因》/《The Selfish Gene》 (1976，Richard Dawkins)
     - 一旦化学系统具备了自我复制的能力，达尔文机便开始运转。这一层是关于“算法”的胜利。Richard Dawkins展示了复制子（基因）是如何通过自然选择这一盲目却高效的算法，构建出精妙绝伦的生存机器（生物体）。我们不再需要设计者，只需承认演化算法在深邃时间尺度上的累积效应。
-  - 《The Blind Watchmaker》 (Richard Dawkins)
+  - 《盲眼钟表匠》/《The Blind Watchmaker》 (1986，Richard Dawkins)
 
 - **第六层 社会博弈：道德的计算**
-  - *【重点】*《The Evolution of Cooperation》(Robert Axelrod)
+  - *【重点】*《合作的进化》/《The Evolution of Cooperation》(1984，Robert Axelrod)
     - 当生存机器开始互动，社会行为便涌现了。这一层试图祛除伦理学的神圣光环。通过Robert Axelrod的博弈论模型，我们看到合作、利他甚至道德感，并非来自神启或良知，而是在重复囚徒困境中，自利个体为了最大化长期收益而演化出的稳定策略（ESS）。善，在数学上被证明是一种优越的生存策略。
-  - 《Nonzero: The Logic of Human Destiny》 (Robert Wright)
+  - 《非零和博弈》/《Nonzero: The Logic of Human Destiny》 (2000，Robert Wright)
 
 - **第七层 意识与意义：我是个怪圈**
-  - *【重点】*《I Am a Strange Loop》(Douglas Hofstadter)
+  - *【重点】*《我是个怪圈》/《I Am a Strange Loop》(2007，Douglas Hofstadter)
     - 最后的拼图是观察者本身。如果一切都是粒子、场和算法，那么“我”是谁？Douglas Hofstadter用“怪圈”这一概念统一了逻辑、数学与心智。意识不是居住在大脑中的幽灵，而是符号系统在足够复杂时产生的自我指涉。就像哥德尔不完备定理中的数学怪圈一样，大脑通过层级缠绕构建了一个模拟的“自我”幻觉。理解了这一点，我们便完成了从死寂原子到自觉精神的完整闭环。
-  - 《Gödel, Escher, Bach: an Eternal Golden Braid》 (Douglas Hofstadter)
-  - 《From Bacteria to Bach and Back: The Evolution of Minds》 (Daniel Dennett)
+  - 《集异璧之大成》/《Gödel, Escher, Bach: an Eternal Golden Braid》 (1979，Douglas Hofstadter)
+  - 《From Bacteria to Bach and Back: The Evolution of Minds》 (2017，Daniel Dennett)
 
 
 ## 补充书单
@@ -78,44 +105,48 @@ pdf 压缩包下载链接：（施工中）
 
 ### 补充一：修正主义
 
-1. 《Time Reborn》（Lee Smolin）
+1. 《时间重生》/《Time Reborn》（2013，Lee Smolin）
   - **价值（直觉的回归）：** 它试图解决块状宇宙带来的虚无感。Smolin指出，如果我们接受物理定律是永恒不变的，那么时间在数学上就被空间化了，变成了无效变量。为了让“新颖性”和“创造性”在宇宙中有位置，他主张时间必须是真实的。
   - **代价：** 为了挽救“时间流逝”这个直觉，Smolin不得不假设“物理定律本身也是演化的”。
 
-2. 《The Road to Reality》（Roger Penrose）
-  - **价值（实在的回归）：** 它反击了原书单中隐含的多世界诠释（MWI）。彭罗斯无法接受宇宙在不断分裂，他坚持认为必须有一个唯一的、客观的物理世界。他提出了“客观还原”（OR），认为引力会导致波函数在宏观尺度上发生真实的物理坍缩。
+2. 《通向实在之路》/《The Road to Reality》（2004，Roger Penrose）
+  - **价值（实在的回归）：** 它反击了主书单中隐含的多世界诠释（MWI）。彭罗斯无法接受宇宙在不断分裂，他坚持认为必须有一个唯一的、客观的物理世界。他提出了“客观还原”（OR），认为引力会导致波函数在宏观尺度上发生真实的物理坍缩。
   - **代价：**为了挽救“世界是唯一的”这个直觉，彭罗斯不得不发明一种尚未被观测到的物理机制。
 
-3. 《The Conscious Mind》（David Chalmers）
-  - **价值（体验的回归）：** 它指出了（幻觉主义）最大的痛点：无论你如何解释结构和功能，似乎都解释不了“为什么会有痛觉”。Chalmers论证，既然物理结构（僵尸）在逻辑上可以不具备意识，那么意识就不随附于物理结构。
+3. 《有意识的心理》/《The Conscious Mind》（1996，David Chalmers）
+  - **价值（体验的回归）：** 它指出了幻觉主义最大的痛点：无论你如何解释结构和功能，似乎都解释不了“为什么会有痛觉”。Chalmers论证，既然物理结构（僵尸）在逻辑上可以不具备意识，那么意识就不随附于物理结构。
   - **代价：** 为了挽救“我的体验是真实的”这个直觉，Chalmers不得不引入自然主义二元论，即假设意识是宇宙的一种基础属性（Fundamental Property），就像电荷或质量一样。
 
-4. 《Mind and Cosmos》（Thomas Nagel）
-  - **价值（理性的回归）：** 它挑战了（盲眼钟表匠）。Nagel认为，如果理性仅仅是求生的工具，我们凭什么相信理性揭示了量子力学这种与求生无关的真理？因此，宇宙必须有一种内在的倾向（目的），让物质演化出能够理解宇宙的心灵。
+4. 《心灵与宇宙》/《Mind and Cosmos》（2012，Thomas Nagel）
+  - **价值（理性的回归）：** 它挑战了《盲眼钟表匠》。Nagel认为，如果理性仅仅是求生的工具，我们凭什么相信理性揭示了量子力学这种与求生无关的真理？因此，宇宙必须有一种内在的倾向（目的），让物质演化出能够理解宇宙的心灵。
   - **代价：** 为了挽救“人类理性是特殊的”这个直觉，Nagel引入了目的论（Teleology）。
 
 ### 补充二：折衷主义
 
-1. 《Physics and Philosophy》（Werner Heisenberg）
-   - **价值：** 这是哥本哈根诠释的哲学辩护。它试图在不引入多世界（主书单）和不引入实体坍缩（补充一）的情况下解释量子力学。策略是将波函数视为“潜在性” 而非实在，且测量结果在宏观层面是确定的。它完美地保留了经典世界的直觉，告诉我们“别担心，宏观物体还是老样子”。
-   - **代价：** FAPP与主观界线的随意性。 海森堡和波尔引入了一个臭名昭著的“切口”（Heisenberg Cut），将世界强行分为“量子系统”和“经典观测仪器”。但物理学告诉我们，仪器也是由原子组成的，为什么仪器能免于叠加态？ 哥本哈根诠释从未解释这个边界在哪里（是一个原子？一万个？还是人眼？）。它实际上是放弃了对微观实在的描述，退缩为一种工具主义：这个理论只是好用的计算工具，不代表真实世界。这在本体论上是一种智力投降。
+1. 《物理学和哲学》/《Physics and Philosophy》（1958，Werner Heisenberg）
+  - **价值：** 这是哥本哈根诠释的哲学辩护。它试图在不引入多世界（主书单）和不引入实体坍缩（补充一）的情况下解释量子力学。策略是将波函数视为“潜在性” 而非实在，且测量结果在宏观层面是确定的。它完美地保留了经典世界的直觉，告诉我们“别担心，宏观物体还是老样子”。
+  - **代价：** FAPP与主观界线的随意性。 海森堡和波尔引入了一个臭名昭著的“切口”（Heisenberg Cut），将世界强行分为“量子系统”和“经典观测仪器”。但物理学告诉我们，仪器也是由原子组成的，为什么仪器能免于叠加态？ 哥本哈根诠释从未解释这个边界在哪里（是一个原子？一万个？还是人眼？）。它实际上是放弃了对微观实在的描述，退缩为一种工具主义：这个理论只是好用的计算工具，不代表真实世界。这在本体论上是一种智力投降。
 
-2. 《The Rediscovery of the Mind》（John Searle）
-   - **价值：** Searle 痛恨 Dennett 的“幻觉说”（主书单第七层），也痛恨 Chalmers 的“二元论”（补充一）。他提出了一个听起来最符合常识的方案：生物自然主义。 观点：大脑就是肉做的机器，意识是极其特殊的生物特征，就像“水”产生“湿”一样，大脑产生了意识。既没有灵魂，也不是冷冰冰的计算，而是鲜活的生物过程。
+2. 《心灵的再发现》/《The Rediscovery of the Mind》（1992，John Searle）
+  - **价值：** Searle 痛恨 Dennett 的“幻觉说”（主书单第七层），也痛恨 Chalmers 的“二元论”（补充一）。他提出了一个听起来最符合常识的方案：生物自然主义。 观点：大脑就是肉做的机器，意识是极其特殊的生物特征，就像“水”产生“湿”一样，大脑产生了意识。既没有灵魂，也不是冷冰冰的计算，而是鲜活的生物过程。
   - **代价：** 因果排斥难题。 Searle 的类比（水和湿）是错误的。湿气可以完全还原为水分子的运动，但Searle坚持意识具有不可还原的主观性，同时又坚持它是纯物理大脑的产物。 哲学家 Jaegwon Kim 指出，这会导致“因果过度决定”：如果神经元的电化学反应（物理层）已经足以解释下一个神经元的放电，那么“意识”（高层）还能做什么？它要么是多余的副现象（Epiphenomenalism，这违背了直觉），要么必须违背物理封闭性（这就变成了二元论）。Searle 试图两头都占，结果是在核心机制上“手舞足蹈”，只有断言，没有机制。
 
-3. 《The Re-Emergence of Emergence》（Philip Clayton / Paul Davies）
+3. 《The Re-Emergence of Emergence》（2006，Philip Clayton / Paul Davies）
   - **价值：** 这一派观点试图用“强涌现”来对抗主书单的“弱涌现”（计算物理）。 弱涌现认为：所谓新性质只是我们计算能力不足时的近似，原则上都可以还原为底层粒子。 强涌现认为：当系统足够复杂时，会产生全新的、不可还原的因果力，高层规律真的能控制底层粒子。这让人类觉得自己的意志真的在控制身体，而不是原子在推着原子走。
   - **代价：** 神秘主义的后门。 目前的物理学没有任何证据支持“强涌现”。如果高层结构能改变底层粒子的运动轨迹，这意味着它必须打破底层的物理定律（如标准模型）。如果不打破，它就是弱涌现（原书单）；如果打破，它就是一种“魔法”或者未知的第五种力。 强涌现论者往往在关键时刻语焉不详，试图在不修改物理定律的前提下获得额外的因果力，这在逻辑上是不可能的。
 
-**总结：**
+## 总结
 - **主书单：** 极简主义。它认为直觉是进化的产物（即它是为了“好用”而非“求真”），因此毫无顾忌地抛弃直觉，追求数学和逻辑上的最小完备集。这是“科学图景”（Scientific Image）的极致。
 - **补充书单一：** 修正主义。它假设直觉（如时间、体验、意义）包含了某些无法被还原的真理，因此不惜引入额外的本体论假设来包容它们。这代表了“显明图景”（Manifest Image）对科学的顽强抵抗。
 - **补充书单二：** 折中主义。试图通过重新定义词汇（如“潜在性”、“生物属性”、“涌现”）来掩盖矛盾。它们读起来最舒服，最像“真理”，因为它们迎合了我们所有的偏见。但放在严苛的奥卡姆剃刀和逻辑显微镜下，它们往往是最先崩塌的。
 
-## 附录: 结构实在论与涌现的层级宇宙：一种自然化形而上学的综合世界观
+***
 
-(这里提供gemini 3.0 pro生成的，对于主书单的总结，供读者参考。)
+## 附录
+
+## 结构实在论与涌现的层级宇宙：一种自然化形而上学的综合世界观
+
+(这里提供gemini 3.0 pro生成的对于主书单的总结，供读者参考。)
 
 ### 绪论：从“物”的本体论到“模式”的本体论
 
