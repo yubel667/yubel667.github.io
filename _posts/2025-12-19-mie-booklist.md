@@ -34,19 +34,7 @@ minutes: 15
 
 ## 获取图书
 
-**单独下载**
-
-在 [annas-archive.org](https://annas-archive.org/) 根据书名和作者可以搜到大部分书。部分书籍没有中文版翻译，可以看英文版或使用LLM。
-
-**合集下载链接（github）**
-- English Version (pdf, 26本，200 MB)
-  - [github link (7z)](https://github.com/yubel667/static-files/releases/download/mie-booklist/English.7z)
-  - [ghproxy link (7z)](https://ghfast.top/https://github.com/yubel667/static-files/releases/download/mie-booklist/English.7z)
-- 中文版 (pdf, 19本，400 MB)
-  - [github link (7z)](https://github.com/yubel667/static-files/releases/download/mie-booklist/Chinese.7z)
-  - [ghproxy link (7z)](https://ghfast.top/https://github.com/yubel667/static-files/releases/download/mie-booklist/Chinese.7z)
-- 密码：YuBeL667
-- 墙内可能需使用代理 [ghproxy.link](https://ghproxy.link) 提供的的前缀下载，例如 https://ghfast.top/https://github.com/... 本文提供了链接但是可能过期，此时需要手动修改为最新代理前缀。
+在例如 [annas-archive.org](https://annas-archive.org/) 根据书名和作者可以搜到大部分书。部分书籍没有中文版翻译，可以看英文版或使用LLM。
 
 ## 主书单：世界的极简主义模型
 
