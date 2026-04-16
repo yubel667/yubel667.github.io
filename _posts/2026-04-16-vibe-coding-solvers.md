@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 《Vibe Coding 实战：如何用几小时完成数周的工作量》
+title: 《Vibe Coding的几个项目》
 date: 2026-04-16
-summary: "通过几个解谜游戏 Solver 项目和 MTG 插件，分享 Vibe Coding 的核心经验：如何通过精确指令和“手写核心”实现生产力爆炸。"
-categories: programming ai
+summary: ""
+categories: programming
 ---
 
 ## 为什么是 Vibe Coding？
@@ -24,19 +24,27 @@ categories: programming ai
 
 ![Smart Dog Solver](https://raw.githubusercontent.com/yubel667/smart-dog-solver/master/README.md)
 
-### 正确的姿势：人写 board.py，AI 写剩下的
+### 正确的方式：人写 board.py，AI 写剩下的
 
 在后续的 `asteroid-escape-solver` 和 `jump-in-solver` 中，我改变了策略：
-1. **人类手写 `board.py`**：亲自定义游戏的状态表征、合法移动检查逻辑。
+1. **人类手写 `board.py`**：亲自定义游戏的状态表征、合法移动检查逻辑，手工定义ascii编码。
 2. **AI 接管余下逻辑**：一旦有了严谨的 `board.py` 作为基准，LLM 展现出了惊人的演绎能力。它能迅速写出高效的 DFS 搜索引擎、命令行 UI、甚至复杂的可视化渲染器。
 
 这种“**人手定义世界观，AI 在其中探索**”的模式，效率极高。
 
 ---
 
-## 核心经验二：示例（Examples）是最好的指令
+## 核心经验二：示例是最好的指令
 
-到了最后一个项目 `jump-in-solver` 时，流程已经变得非常顺滑。我不仅手写了核心逻辑，还向 LLM 提供了之前项目中成功的代码示例。通过这种方式，LLM 在第一次尝试时就生成了完全正确的 Solver 代码。这种跨项目参考的方法，是目前将效率推向极致的最佳路径。
+到了最后一个项目 `jump-in-solver` 时，流程已经变得非常顺滑。我不仅手写了核心逻辑，还向 LLM 提供了之前项目中成功的代码示例。通过这种方式，LLM 在第一次尝试时就生成了完全正确的代码。这种跨项目参考的方法，是目前将效率推向极致的最佳路径。
+
+## 效果展示
+
+我让LLM给好几个Solver写了动画，直观检查的同时，也保证了这些动图本身就是standalone，无关程序的产出。
+
+![Cat And Box Solution](https://raw.githubusercontent.com/yubel667/cat-and-box-solver/master/solution/60.webp)
+
+![Anstroid Escape Solution](https://raw.githubusercontent.com/yubel667/asteroid-escape-solver/master/solutions/60.webp)
 
 ![Jump In Solution](https://raw.githubusercontent.com/yubel667/jump-in-solver/master/solutions/60.webp)
 
