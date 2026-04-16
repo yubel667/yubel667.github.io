@@ -22,7 +22,7 @@ categories: programming
 
 **结论是：LLM 并不擅长从模糊的自然语言描述中构建“物理世界”的根基。**
 
-![Smart Dog Solver](https://raw.githubusercontent.com/yubel667/smart-dog-solver/master/README.md)
+[Smart Dog Solver](https://raw.githubusercontent.com/yubel667/smart-dog-solver/master/README.md)
 
 ### 正确的方式：人写 board.py，AI 写剩下的
 
