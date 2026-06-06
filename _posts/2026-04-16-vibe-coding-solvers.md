@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《Vibe Coding的几个项目》
+title: Vibe Coding的几个项目
 date: 2026-04-16
 summary: ""
 categories: programming
