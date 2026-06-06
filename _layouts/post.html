@@ -21,32 +21,33 @@ layout: default
   {% endif %}
   </span>
 
-  <div class="post-tools-container">
-      <button class="tool-btn" onclick="window.print()" title="Save as PDF">
-          <span class="icon">🖨️</span> 
+  <div class="post-tools-container" aria-label="文章工具">
+      <button class="tool-btn" type="button" onclick="window.print()" title="另存为 PDF" aria-label="另存为 PDF">
           <span class="text">另存为 PDF</span>
       </button>
-      <button class="tool-btn" id="toggle-image-btn" onclick="toggleImages()" title="Text Only Mode">
-        <span class="icon">🖼️</span> 
-        <span class="text">隐藏图片</span>
+      <button class="tool-btn" id="toggle-image-btn" type="button" onclick="toggleImages()" title="隐藏图片" aria-label="隐藏图片" aria-pressed="false">
+          <span class="text">隐藏图片</span>
       </button>
-      <div id="google_translate_element" class="tool-translate"></div>
+      <div class="tool-translate" aria-label="翻译工具">
+          <span class="tool-label">翻译</span>
+          <div id="google_translate_element"></div>
+      </div>
   </div>
   <script type="text/javascript">
       document.addEventListener("DOMContentLoaded", function() {
-          // 找到正文内所有的图片
           var images = document.querySelectorAll('.post img');
           images.forEach(function(img) {
-              // 创建一个 a 标签
+              if (img.nextElementSibling && img.nextElementSibling.classList.contains('img-uri-placeholder')) {
+                  return;
+              }
+
               var placeholder = document.createElement('a');
-              placeholder.href = img.src;     // 链接指向原图
-              placeholder.target = '_blank';  // 新窗口打开
-              placeholder.className = 'img-uri-placeholder'; // 赋予样式类
-              
-              // 设置显示的文字：可以是简单的图标，也可以是完整的 src
-              placeholder.innerHTML = '🔗' + img.src; 
-              
-              // 将这个占位符插入到图片后面
+              placeholder.href = img.src;
+              placeholder.target = '_blank';
+              placeholder.rel = 'noopener';
+              placeholder.className = 'img-uri-placeholder';
+              placeholder.textContent = img.src;
+
               img.parentNode.insertBefore(placeholder, img.nextSibling);
           });
       });
@@ -62,16 +63,20 @@ layout: default
       }
       function toggleImages() {
           var body = document.body;
-          var btnText = document.querySelector('#toggle-image-btn .text');
-          
-          // 切换 body 的类
-          body.classList.toggle('hide-images');
+          var btn = document.getElementById('toggle-image-btn');
+          var btnText = btn.querySelector('.text');
+          var imagesHidden = body.classList.toggle('hide-images');
 
-          // 根据状态修改按钮文字
-          if (body.classList.contains('hide-images')) {
+          if (imagesHidden) {
               btnText.textContent = "显示图片";
+              btn.title = "显示图片";
+              btn.setAttribute('aria-label', '显示图片');
+              btn.setAttribute('aria-pressed', 'true');
           } else {
               btnText.textContent = "隐藏图片";
+              btn.title = "隐藏图片";
+              btn.setAttribute('aria-label', '隐藏图片');
+              btn.setAttribute('aria-pressed', 'false');
           }
       }
   </script>

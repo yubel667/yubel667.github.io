@@ -70,31 +70,81 @@ body.hide-images {
 }
 .post-tools-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 15px; /* 按钮和翻译框的间距 */
-    margin: 20px 0; /* 上下边距 */
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0; /* 加一条淡淡的分割线 */
+    gap: 0.45rem;
+    margin: 1rem 0 1.25rem;
+    padding: 0.55rem 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    color: $mid-gray;
 }
 
 .tool-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    justify-content: center;
+    min-height: 1.8rem;
     background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    padding: 6px 12px;
-    font-size: 14px;
-    color: #555;
+    border: 1px solid $lighter-gray;
+    border-radius: $border-radius;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: $mid-gray;
     cursor: pointer;
-    transition: all 0.2s ease;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+    font-family: $font-family;
+    white-space: nowrap;
 }
 
-/* 鼠标悬停效果 */
-.tool-btn:hover {
-    border-color: #333;
-    color: #333;
+.tool-btn:hover,
+.tool-btn:focus {
+    border-color: $light-gray;
+    color: $dark-gray;
     background-color: #fafafa;
+}
+
+.tool-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba($blue, 0.12);
+}
+
+.tool-btn[aria-pressed="true"] {
+    color: $dark-gray;
+    border-color: $light-gray;
+    background-color: #f7f7f7;
+}
+
+.tool-translate {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 1.8rem;
+    margin-left: 0.15rem;
+    font-size: 0.75rem;
+    color: $mid-gray;
+}
+
+.tool-label {
+    white-space: nowrap;
+}
+
+.tool-translate .goog-te-gadget {
+    color: $mid-gray;
+    font-family: $font-family;
+    font-size: 0.75rem;
+    line-height: 1.2;
+}
+
+.tool-translate .goog-te-combo {
+    height: 1.8rem;
+    margin: 0;
+    padding: 0.2rem 0.45rem;
+    border: 1px solid $lighter-gray;
+    border-radius: $border-radius;
+    color: $dark-gray;
+    background-color: white;
+    font-family: $font-family;
+    font-size: 0.75rem;
 }
