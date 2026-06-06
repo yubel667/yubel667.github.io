@@ -27,6 +27,20 @@ em img {
   margin-left: 0;
 }
 
+.post-content img[src^="/images/magda-cookbook/"] {
+  display: block;
+  width: auto;
+  max-width: min(100%, 16rem);
+  max-height: 23rem;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.post-content .mtg-term {
+  color: #5b3a10;
+  font-weight: 600;
+}
+
 body {
           box-sizing: border-box;
      -moz-box-sizing: border-box;
