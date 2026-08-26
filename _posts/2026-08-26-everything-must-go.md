@@ -1310,7 +1310,10 @@ $$
 不过，公认观点的倡导者没有放弃把理论术语锚定于可观察世界的企图。卡尔纳普接下来的尝试（1936–7）把对应规则视为如下形式的*还原句*：
 
 $$
-Px \rightarrow [Qx \rightarrow V_Tx],\qquad Rx \rightarrow [Sx \rightarrow \neg V_Tx]
+\begin{aligned}
+Px &\rightarrow [Qx \rightarrow V_Tx],\\
+Rx &\rightarrow [Sx \rightarrow \neg V_Tx]
+\end{aligned}
 $$
 
 这些句子没有定义理论术语，却仍然把它们同观察术语联系起来，从而确保前者具有认知意义。（这也避开了明确界定所面临的轻易适用问题。）还原句与理论假设共同为理论术语提供部分解释；它们还旨在规定把理论应用于现象的程序。生命力、隐德来希等理论概念遭到逻辑经验主义者批评，因为倡导者没有用精确、可检验的定律来表达它们。
