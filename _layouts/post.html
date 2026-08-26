@@ -22,7 +22,7 @@ layout: default
   </span>
 
   <div class="post-tools-container" aria-label="文章工具">
-      <button class="tool-btn" type="button" onclick="window.print()" title="另存为 PDF" aria-label="另存为 PDF">
+      <button class="tool-btn" type="button" onclick="printPost()" title="另存为 PDF" aria-label="另存为 PDF">
           <span class="text">另存为 PDF</span>
       </button>
       <button class="tool-btn" id="toggle-image-btn" type="button" onclick="toggleImages()" title="隐藏图片" aria-label="隐藏图片" aria-pressed="false">
@@ -60,6 +60,12 @@ layout: default
               }, 
               'google_translate_element'
           );
+      }
+      async function printPost() {
+          if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
+              await window.MathJax.startup.promise;
+          }
+          window.print();
       }
       function toggleImages() {
           var body = document.body;
