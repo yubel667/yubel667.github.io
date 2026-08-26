@@ -1536,9 +1536,11 @@ $$
 那么，对于可观察属性 $Q$：
 
 $$
-\langle P\Psi_{12}|Q|P\Psi_{12}\rangle
-=\langle\Psi_{12}|Q|\Psi_{12}\rangle,
-\quad \forall Q,\ \forall\Psi_{12}.
+\begin{aligned}
+&\langle P\Psi_{12}|Q|P\Psi_{12}\rangle\\
+&\quad=\langle\Psi_{12}|Q|\Psi_{12}\rangle,\\
+&\qquad \forall Q,\ \forall\Psi_{12}.
+\end{aligned}
 $$
 
 > 原注：见 Greenberg and Messiah（1964）。
