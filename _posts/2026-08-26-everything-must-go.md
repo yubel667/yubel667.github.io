@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《一切物皆须退场:自然化的形而上学》
+title: 《一切物皆须退场:自然化的形而上学》译本
 date: 2026-08-26
 summary: ""
 categories: philosophy
